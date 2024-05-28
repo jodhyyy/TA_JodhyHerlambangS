@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_biodatasiswa"
+        android:icon="@drawable/ic_user"
+        android:title="Biodata Siswa"/>
+
+    <item
+        android:id="@+id/nav_laporansiswa"
+        android:icon="@drawable/ic_ulangan"
+        android:title="Laporan Siswa"/>
+
+    <item
+        android:id="@+id/nav_jadwal"
+        android:icon="@drawable/ic_jadwal"
+        android:title="Jadwal Pelajaran"/>
+
+    <item
+        android:id="@+id/nav_walikelas"
+        android:icon="@drawable/ic_ortu"
+        android:title="Wali Kelas"/>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout"/>
+        </menu>
+    </item>
+
+</menu>

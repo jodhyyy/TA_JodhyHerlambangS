@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "651259523799",
+    "project_id": "jodhy-monitor",
+    "storage_bucket": "jodhy-monitor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651259523799:android:3c72bf7f3624cf8f117692",
+        "android_client_info": {
+          "package_name": "com.example.jodhy_monitor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXraCyOl8jEruRuVEVx6w0GPH7b80AoFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651259523799:android:ccf7310069947554117692",
+        "android_client_info": {
+          "package_name": "com.example.monitoradmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXraCyOl8jEruRuVEVx6w0GPH7b80AoFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

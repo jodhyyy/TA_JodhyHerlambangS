@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_guru"
+        android:icon="@drawable/ic_ujian"
+        android:title="Guru"/>
+
+    <item
+        android:id="@+id/nav_ortu"
+        android:icon="@drawable/ic_ulangan"
+        android:title="Orang Tua"/>
+
+    <item
+        android:id="@+id/nav_siswa"
+        android:icon="@drawable/ic_siswa"
+        android:title="Siswa"/>
+
+    <item
+        android:id="@+id/nav_akun"
+        android:icon="@drawable/ic_user"
+        android:title="Akun User"/>
+
+</menu>

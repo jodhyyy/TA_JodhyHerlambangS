@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".home.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/imageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:iss_corner_radius="10"
+            app:iss_period="1000"
+            app:iss_auto_cycle="true"
+            app:iss_delay="1000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="220dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ypi.ba"
+            android:layout_marginStart="10dp"
+            android:drawableStart="@drawable/ic_instagram"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/Gray"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YAPIBAOFFICIAL"
+            android:layout_marginStart="10dp"
+            android:drawableStart="@drawable/ic_facebook"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/Gray"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="280dp">
+
+        <TextView
+            android:id="@+id/tvLanjutBerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawableEnd="@drawable/ic_lanjut"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/Gray"
+            android:textSize="22sp"
+            android:text="Berita"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/Gray"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:text="Kegiatan Pramuka Disekolah Yayasan Pebdidikan Islam Baidhaul Ahkam. #baidhaulahkam #pramukaindonesia #pramukakeren"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="450dp">
+
+        <TextView
+            android:id="@+id/tvLanjutInformasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawableEnd="@drawable/ic_lanjut"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/Gray"
+            android:textSize="22sp"
+            android:text="Informasi"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/Gray"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:text="Sudah Di Buka !! Koperasi Sekolah. #YAPIBA #KOPERASI #SEKOLAH "/>
+
+    </LinearLayout>
+
+</FrameLayout>

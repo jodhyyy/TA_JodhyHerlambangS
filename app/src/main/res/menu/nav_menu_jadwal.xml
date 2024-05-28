@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_uts"
+        android:icon="@drawable/ic_praktek"
+        android:title="UTS"/>
+
+    <item
+        android:id="@+id/nav_uas"
+        android:icon="@drawable/ic_ujian"
+        android:title="UAS"/>
+
+</menu>

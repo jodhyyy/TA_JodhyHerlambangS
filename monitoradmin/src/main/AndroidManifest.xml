@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JodhyMonitor">
+        <activity
+            android:name=".softskill.DetailSoftSkill"
+            android:exported="false" />
+        <activity
+            android:name=".softskill.UpdateSoftSkill"
+            android:exported="false" />
+        <activity
+            android:name=".softskill.UploadSoftSkill"
+            android:exported="false" />
+        <activity
+            android:name=".jadwal.DetailJadwal"
+            android:exported="false" />
+        <activity
+            android:name=".jadwal.UpdateJadwal"
+            android:exported="false" />
+        <activity
+            android:name=".jadwal.UploadJadwal"
+            android:exported="false" />
+        <activity
+            android:name=".matpel.DetailMatpel"
+            android:exported="false" />
+        <activity
+            android:name=".matpel.UpdateMatpel"
+            android:exported="false" />
+        <activity
+            android:name=".matpel.UploadMatpel"
+            android:exported="false" />
+        <activity
+            android:name=".user.siswa.DetailSiswa"
+            android:exported="false" />
+        <activity
+            android:name=".user.siswa.UpdateSiswa"
+            android:exported="false" />
+        <activity
+            android:name=".user.siswa.UploadSiswa"
+            android:exported="false" />
+        <activity
+            android:name=".user.orangtua.DetailOrangTua"
+            android:exported="false" />
+        <activity
+            android:name=".user.orangtua.UploadOrangTua"
+            android:exported="false" />
+        <activity
+            android:name=".user.orangtua.UpdateOrangTua"
+            android:exported="false" />
+        <activity
+            android:name=".user.guru.UploadGuru"
+            android:exported="false" />
+        <activity
+            android:name=".user.guru.UpdateGuru"
+            android:exported="false" />
+        <activity
+            android:name=".user.guru.DetailGuru"
+            android:exported="false" />
+        <activity
+            android:name=".user.akunuser.UpdateAkunUser"
+            android:exported="false" />
+        <activity
+            android:name=".user.akunuser.DetailAkunUser"
+            android:exported="false" />
+        <activity
+            android:name=".user.akunuser.UploadAkunUser"
+            android:exported="false" />
+        <activity
+            android:name=".user.siswa.Siswa"
+            android:exported="false" />
+        <activity
+            android:name=".user.orangtua.OrangTua"
+            android:exported="false" />
+        <activity
+            android:name=".user.guru.Guru"
+            android:exported="false" />
+        <activity
+            android:name=".user.akunuser.AkunUser"
+            android:exported="false" />
+        <activity
+            android:name=".softskill.SoftSkill"
+            android:exported="false" />
+        <activity
+            android:name=".matpel.MataPelajaran"
+            android:exported="false" />
+        <activity
+            android:name=".user.User"
+            android:exported="false" />
+        <activity
+            android:name=".jadwal.Jadwal"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAdmin"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

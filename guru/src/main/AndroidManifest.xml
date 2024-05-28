@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JodhyMonitor">
+        <activity
+            android:name=".nilai.DetailNilai"
+            android:exported="false" />
+        <activity
+            android:name=".nilai.UpdateNilai"
+            android:exported="false" />
+        <activity
+            android:name=".nilai.UploadNilai"
+            android:exported="false" />
+        <activity
+            android:name=".absen.UpdateAbsensi"
+            android:exported="false" />
+        <activity
+            android:name=".absen.DetailAbsensi"
+            android:exported="false" />
+        <activity
+            android:name=".absen.UploadAbsensi"
+            android:exported="false" />
+        <activity
+            android:name=".siswa.DetailSiswa"
+            android:exported="false" />
+        <activity
+            android:name=".ortu.DetailOrtu"
+            android:exported="false" />
+        <activity
+            android:name=".nilai.Nilai"
+            android:exported="false" />
+        <activity
+            android:name=".absen.Absensi"
+            android:exported="false" />
+        <activity
+            android:name=".siswa.Siswa"
+            android:exported="false" />
+        <activity
+            android:name=".ortu.OrangTua"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

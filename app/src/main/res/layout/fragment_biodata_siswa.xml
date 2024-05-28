@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".biodatasiswa.BiodataSiswa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/detailImage"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:src="@drawable/malepicture"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:layout_marginTop="14dp"
+                android:textSize="24sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/Black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailNama"
+                android:text="Bimo Wibisono"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="75dp"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/Gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIS"
+                android:layout_marginTop="14dp"
+                android:textSize="24sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/Black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailNis"
+                android:text="1267918"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="100dp"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/Gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jabatan"
+                android:layout_marginTop="14dp"
+                android:textSize="24sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/Black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailJabatan"
+                android:text="Murid"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="55dp"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/Gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Wali"
+                android:layout_marginTop="14dp"
+                android:textSize="24sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/Black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailNamaWali"
+                android:text="Farida Nurhah"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="27dp"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/Gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:layout_marginTop="14dp"
+                android:textSize="24sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/Black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailAlamat"
+                android:text="Jalan dua no.2"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="70dp"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/Gray"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
